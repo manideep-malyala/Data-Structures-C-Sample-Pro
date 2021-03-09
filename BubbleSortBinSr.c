@@ -16,7 +16,8 @@ void binary_search(int A[],int N, int key);
 
 int main()
 {
-  int a[100], n, i;
+  int a[100], n, i; 
+  int key;
 
   // fixing the number of elements from user
   printf("Enter the Number of Elements for the Array: ");
@@ -44,7 +45,6 @@ int main()
      printf("%d   ", a[i]);
 
   // taking the key value to be searched from the user
-  int key;
   printf("\n\nEnter the Element to be Searched:  ");
   scanf("%d", &key);
 
